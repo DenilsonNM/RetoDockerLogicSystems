@@ -1,10 +1,10 @@
-# Wiklonpedia
+# Reto - LogicSystems
+
+## Wiklonpedia
 Esta es una página web realizada en HTML y CSS que trata de realizar una copia similar a la página principal de Wikipedia.
 
-#InfoITM
+##InfoITM
 Página web HTML y CSS que simula una web estatica con información hacerca del Instituto Tecnológico de Mérida.
-
-# Reto - LogicSystems
 
 ## Documentación
 
