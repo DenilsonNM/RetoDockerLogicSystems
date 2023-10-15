@@ -1,0 +1,221 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+
+/* APARTADO PARA EL FORM DIV 1 -------------------- */
+
+.c_logoform{
+  display: flex;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+.c_form{
+  background-color: white;
+  width: 700px;
+  padding: 10px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 200px;
+}
+label{
+  padding-left: 10px;
+  font-weight: bold;
+}
+.select_form{
+  padding-top: 10px;
+  float: left;
+}
+.btn_form{
+  background-color: #cc9900;
+  border-radius: 5px;
+  padding: 5px 40px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.logo1{
+  padding-left: 20px;
+}
+.select_mes{
+  width: 110px;
+}
+
+/* APARTADO PARA EL MENU DIV 2 -------------------- */
+
+.c_menu{
+  display: flex;
+  justify-content: space-between;
+}
+.c_menu a{
+  display: inline-block;
+  text-align: center;
+  border: 1px #eeeeee solid;
+  padding: 15px;
+  width: 16%;
+  flex: 1;
+  text-decoration: none;
+  color:#333;
+  font-size: 20px;
+}
+.c_menu a:hover{
+  color: white;
+  background-color: #5d0201;
+}
+
+/* APARTADO PARA EL FONDO DIV 3 -------------------- */
+
+.c_bkgsis{
+  background-image: url(imagenes/fotoslide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+/* APARTADO PARA LA INFO DIV 4 -------------------- */
+
+.c_todasinfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.c_info{
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 400px;
+  /* border: 1px green solid; */
+}
+.c_info:last-child{
+  margin-right: 0;
+}
+.c_info img{
+  float: left;
+  /* border: 1px red solid; */
+}
+.c_info h1{
+  /* display: inline-block; */
+  margin-left: 50px;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 26px;
+}
+.c_info h1:hover{
+  color: #5d0201;
+}
+.info_border{
+  background-color: #333;
+  height: 1px;
+  margin: 20px 0px;
+}
+.c_infoback1{
+  background-image: url(imagenes/foto1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.c_infoback2{
+  background-image: url(imagenes/foto2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.c_infoback3{
+  display: flex;
+  flex-wrap: wrap;
+}
+.c_infoback3 img{
+  padding: 1px;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.c_infoback3 img:nth-child(3){
+  width: 100%;
+}
+
+/* APARTADO PARA PERFIL DIV 5 -------------------- */
+
+.c_perfil{
+  margin-top: 10px;
+  display: flex;
+}
+.vineta{
+  margin: 10px;
+  width: 800px;
+}
+.vineta img{
+  float: left;
+  margin-right: 10px;
+}
+.camtra{
+  border-radius: 15px;
+  text-align: center;
+  background-color: #5d0201;
+  color: white;
+  width: 400px;
+}
+.camtra h3{
+  font-weight: lighter;
+  color: #cc9900;
+  padding-top: 20px;
+}
+.camtra a{
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  background-color: #cc9900;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  margin-bottom: 15px;
+}
+.camtra p{
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+/* APARTADO PARA CONTACTO DIV 6 -------------------- */
+
+.c_contac{
+  margin-top: 20px;
+  background-color: #101518;
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+}
+span{
+  color: #cc9900;
+}
+.mapa{
+  /* border: 1px red solid; */
+  margin-left: 60px;
+}
+.nombre{
+  text-align: center;
+  width: 400px;
+  font-weight: bold;
+  /* border: 1px red solid; */
+}
+.final{
+  background-color: #5d0201;
+  height: 30px;
+}
+/* Alumno: */
+/* Denilson Jesus Nuñez Morales */

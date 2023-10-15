@@ -1,0 +1,12 @@
+version: '3'
+services:
+  infoitm:
+    build: 
+      context: .
+    ports:
+      - "8080:80"
+  wiklonpedia:
+    build: 
+      context: .
+    ports:
+      - "8081:80"
