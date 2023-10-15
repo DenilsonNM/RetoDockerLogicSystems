@@ -1,15 +1,15 @@
 # Reto - LogicSystems
 
 Wiklonpedia
-Esta es una página web realizada en HTML y CSS que trata de realizar una copia similar a la página principal de Wikipedia.
+Esta es una página web realizada en HTML y CSS que simula una web estática con información acerca de la página principal del sitio Wikipedia.
 
 InfoITM
-Página web HTML y CSS que simula una web estatica con información hacerca del Instituto Tecnológico de Mérida.
+Esta es una página web realizada en HTML y CSS que simula una web estatica con información acerca del Instituto Tecnológico de Mérida.
 
 ## Documentación
 
 En Git bash y compilación:
-Clonamos el reporsitorio de Github en una carpeta:
+Clonamos el repositorio de GitHub en una carpeta:
 
 ```shell
    git clone https://github.com/DenilsonNM/RetoDockerLogicSystems
@@ -23,7 +23,7 @@ Cuando se descargue el proyecto lanzamos el comando para compilar y levantar el 
 
 ## Docker compose
 
-compilar el proyecto con docker-compose:
+Compilar el proyecto con docker-compose:
 
 ```shell
    docker-compose build
@@ -35,13 +35,13 @@ Una vez compilado el proyecto, se levanta:
    docker-compose up --build
 ```
 
-salir de los logs:
+Salir de los logs:
 
 ```shell
    ctrl + c
 ```
 
-levantarlo sin logs utilizamos -d:
+Levantarlo sin logs utilizamos -d:
 
 ```shell
    docker-compose up -d
@@ -59,7 +59,7 @@ Para saber el estado y listado de contenedores utilizamos:
    docker-compose ps
 ```
 
-# Visualizar paginas web dentro del contenedor "site"
+# Visualizar páginas web dentro del contenedor "site"
 
 ## En cualquier navegador:
 InfoITM:
