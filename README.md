@@ -12,7 +12,7 @@ En Git bash y compilación:
 Clonamos el reporsitorio de Github en una carpeta:
 
 ```shell
-   git clone
+   git clone https://github.com/DenilsonNM/RetoDockerLogicSystems
 ```
 
 Cuando se descargue el proyecto lanzamos el comando para compilar y levantar el proyecto:
